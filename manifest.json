@@ -12,6 +12,8 @@
         "default_popup": "popup.html",
         "default_title": "My Extension",
         "default_icon": "./images/Logo.png"
-    }
-
+    },
+    "permissions": [
+        "storage"
+    ]
 }

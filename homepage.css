@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 .extension{
     background-color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 500px;
     width: 375px;
     border: 1px solid #3b3b3b;

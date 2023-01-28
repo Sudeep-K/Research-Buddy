@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resaerch buddie</title>
     <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bookform.css">
 </head>
 <body>
+    <!-- home page -->
     <div class="extension">
         <div class="header"> Resaerch buddy </div>
         <div class="emptydiv">
@@ -31,7 +30,91 @@
                 <div class="formatentrytype">Journal</div>
             </div>
         </div>
-        <script src="Script.js"></script>
     </div>
+
+    <!-- book form page -->
+    <div class="main">
+        <div class="header"><p>Research Buddy</p></div>
+
+        <form>
+            <div class="book-title input">
+                <label for="book-title">Book Title</label>
+                <input type="text" name="book-title" id="book-title" placeholder="Title of the book">
+            </div>
+    
+            <div class="author-container">
+                <div class="flex-container input">
+                    <label for="author-container">Author Name</label>
+                    <div class="name-flex">
+                        <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="author-list">
+                    <div class="author">
+                        <p>Sameer Shrestha</p>
+                        <button class="edit-author" type="button">✒️</button>
+                        <button class="remove-author" type="button">🚮</button>
+                    </div>
+                </div>
+                <button id="add-author" type="button">Add Author</button>
+            </div>
+    
+            <div class="published-date input">
+                <label for="published-date">Published Date</label>
+                <div class="date-flex">
+                    <input type="text" name="year" id="year" placeholder="YYYY">
+                    <input type="text" name="month" id="month" placeholder="MM">
+                    <input type="text" name="day" id="day" placeholder="DD">
+                </div>
+            </div>
+    
+            <div class="publisher input">
+                <label for="publisher">Publisher</label>
+                <input type="text" name="publisher" id="publisher" placeholder="Publication House">
+            </div>
+    
+            <div class="edition input">
+                <label for="edition">Edition</label>
+                <input type="text" name="edition" id="edition" placeholder="Book's edition">
+            </div>
+    
+            <div class="volume input">
+                <label for="volume">Volume</label>
+                <input type="text" name="volume" id="volume" placeholder="Book's volume">
+            </div>
+    
+            <div class="select-collection input">
+                <label for="select-collection">Collection</label>
+                <div class="dropdown-citation-collection-name">Citation Collection</div>
+                <div class="citation-collections">
+
+                </div>
+            </div>
+    
+            <div class="select-citation-format input">
+                <label for="select-citation-format">Format</label>
+                <div class="dropdown">Citation Format</div>
+                <div class="citation-formats">
+                    <div class="citation-format">MLA</div>
+                    <div class="citation-format">APA</div>
+                    <div class="citation-format">IEEE</div>
+                </div>
+            </div>
+    
+            <button class="add-to-collection" type="button">Add to Collection</button>
+    
+            <div class="preview">
+                <div class="preview-text">
+                    Bidari, My Last Words for Her, 2nd ed., vol. 12, ktm, Daydream Publication.
+                </div>
+                <button class="copy-preview">
+                    Copy
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="Script.js"></script>
 </body>
 </html>
