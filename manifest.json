@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "1.0.1",
+    "description": "The Research Citation and Organization Extension",
+    "icons": {
+        "16": "./images/Logo.png",
+        "48": "./images/Logo.png",
+        "128": "./images/Logo.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "My Extension",
+        "default_icon": "./images/Logo.png"
+    }
+
+}
