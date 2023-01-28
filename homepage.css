@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.extension{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    width: 375px;
+    border: 1px solid #3b3b3b;
+}
+.header{
+    font-family: 'Pacifico', cursive;
+    height: 10%;
+    width: 100%;
+    background-color: #F5F6FD;
+    border: 1px solid #C7C7C8;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.emptydiv{
+    height: 70%;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* border: 1px solid #000000; */
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notemptydiv{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(124, 119, 119);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 0;
+    display: none;
+}
+
+#emptytext{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    width: 75%;
+    margin-top: 0px;
+    /* border: 1px solid #000000; */
+}
+
+.newcitation{
+    height: 20%;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* border: 1px solid #000000; */
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.newcitationbutton{
+    width: 70%;
+    height: 40px;
+    background-color: #00906D;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:18px;
+    color:#ffffff;
+}
+
+.newcitationbutton:hover{
+    background-color: #006B4F;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+#newcitationtext{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #000000; */
+    text-align: center;
+}
