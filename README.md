@@ -1,8 +1,8 @@
-# Recipe Management System
+# Research Buddie
 
 ## About The Project
 
-![GIF_FILE_DEMO_APP](https://github.com/Sudeep-K/Research-Buddy/blob/main/researchbuddy.gif)
+![GIF_FILE_DEMO_APP](https://github.com/Sudeep-K/Research-Buddy/blob/main/researchbuddie.gif)
 
 This project was part of the two day hackathon organized by UXCam Nepal.
 
